@@ -27,15 +27,15 @@ body{
   text-align: center;
 
 }
-.main h1:hover{
-  text-shadow: 1px 1px 5px #ff00ff;
-  color: #00FF00;
-}
 .image{
   text-align: center;
 }
 .main>H1{
   color: #FFA500;
+}
+.main h1:hover{
+  text-shadow: 1px 1px 5px #ff00ff;
+  color: #00FF00;
 }
 .flexbox{
   display: -webkit-box;
@@ -99,6 +99,34 @@ font-size: 2vmin;
     min-width: 55px;
     width: 38%;
 }
+.table_input{
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+
+}
+.table_input_form>div{
+/*  width: 100%;
+  border: 1px solid red;
+  */
+}
+.table_input_form>div div{
+  /*
+  width: 50%;
+  display: inline-block;
+  border: 1px solid green;
+  */
+}
+
+.table_input_form>div div input{
+  /*
+  width: 50%;
+  */
+}
+
+.table_input span{
+  font-size: 10px;
+}
 
 .social{
   -webkit-box-align: center;
@@ -116,4 +144,8 @@ font-size: 2vmin;
 }
 .social a{
     color: #068304;
+}
+.social a:active{
+  color: #FFA500;
+  text-shadow: -1px -1px 3px #f0ff0f;
 }
