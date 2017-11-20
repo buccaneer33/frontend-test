@@ -27,6 +27,10 @@ body{
   text-align: center;
 
 }
+.main h1:hover{
+  text-shadow: 1px 1px 5px #ff00ff;
+  color: #00FF00;
+}
 .image{
   text-align: center;
 }
