@@ -9,14 +9,21 @@
 
     <div class="header">
       <div class="image">
-        <img src="img/1.jpg" alt="текст" height="70%" width="70%">
+        <img src="img/1.jpg" alt="текст">
       </div><!--image-->
       <div class="main">
+        <div class="main_menu">
+          <ul>
+            <li><a href="#his1">Посмотреть результаты</a></li>
+            <li><a href="#his2">Добавить команду</a></li>
+          </ul>
+        </div>
         <H1>Моя карточка</H1>
         <p>Меня зовут  <b>Имя и фамилия</b></p>
         <p>Я работаю <b>Наименование компании</b></p>
-        <H2>Восточная конференция</H2>
-        <div class="flexbox table">
+        <H2 id="his1">Восточная конференция</H2>
+
+        <div  class="flexbox table">
           <div class="flexbox row">
             <div>
                 <b>Место</b>
@@ -159,41 +166,51 @@
           </div><!--row4-->
 
         </div><!--table-->
-        <div class="table_input flexbox">
-          <h4>Хотите добавить еще команду?<h4>
-            <form class="table_input_form">
-              <div class="">
-                <div>
-              <span>Введите название команды</span>
-              </div>
-            <div>
-            <!-- --> <input type="text" class="table_input_item1"/>
-            </div>
-            </div>
-            <!---->
-            <div class="">
-              <div>
-              <span>Введите количество игр</span>
-            </div>
 
-            <div>
-            <!---->  <input type="text" class="table_input_item2"/>
-            </div>
-            </div>
-            <!---->
 
-            <div class="">
-            <div>
-              <span>Введите количество набраных очков</span>
-            </div>
-            <div>
-            <!-- --> <input type="text" class="table_input_item3"/>
-            </div>
-            </div>
+<div>
+    <h4 id="his2">Хотите добавить еще команду?</h4>
+<!--try-->
+  <div class="flexbox table table_input">
+
+  <div class="flexbox row input_to_table">
+    <div>
+      Введите название команды
+    </div><!--col1-->
+    <div>
+      <input type="text" class="table_input_item"/>
+    </div><!--col2-->
+  </div><!--row2-->
+  <div class="flexbox row input_to_table">
+    <div>
+      Введите количество игр
+    </div><!--col1-->
+    <div>
+      <input type="text" class="table_input_item"/>
+    </div><!--col2-->
+  </div><!--row3-->
+  <div class="flexbox row input_to_table">
+    <div>
+        Введите количество набраных очков
+    </div><!--col1-->
+    <div>
+        <input type="text" class="table_input_item"/>
+    </div><!--col2-->
+  </div><!--row3-->
+  </div><!--table-->
+
+            <!--/try -->
+
 <div></div>
-              <button>Добавить</button>
-            </form>
-        </div>
+  <button>Добавить</button>
+
+</div>
+
+
+
+
+
+
         <h4>Я в социальных сетях</h4>
         <div class="flexbox social">
             <div><a href="#" >Вконтакте</a></div>

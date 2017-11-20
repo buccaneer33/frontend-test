@@ -30,6 +30,10 @@ body{
 .image{
   text-align: center;
 }
+.image>img{
+  height: 70%;
+  width: 70%;
+}
 .main>H1{
   color: #FFA500;
 }
@@ -86,6 +90,15 @@ body{
   float: left;
   width: 100%;
 }
+.table>.row:nth-child(1n+3){
+  background-color: #ffffff;
+}
+.table>.row:nth-child(2n+3){
+  background-color: #ffffff;
+}
+.table>.row:nth-child(3n+3){
+  background-color: #11ffff;
+}
 .row>div{
 margin: 0;
 min-width: 35px;
@@ -103,30 +116,41 @@ font-size: 2vmin;
   width: 50%;
   margin: 0 auto;
   text-align: left;
+  background-color:#fff;
 
 }
-.table_input_form>div{
-/*  width: 100%;
-  border: 1px solid red;
-  */
+.input_to_table{
+  margin-bottom: 5px;
+  background-color:#fff !important;
+
 }
-.table_input_form>div div{
-  /*
+.input_to_table>div{
   width: 50%;
-  display: inline-block;
-  border: 1px solid green;
-  */
+  height: 100%;
+  border-bottom: 1px solid #fff;
+  background-color:#fff;
+}
+.input_to_table>div input{
+  height: 100%;
+  width: 100%;
+}
+.table_input_item:focus{
+  background-color: #555;
+  color: #fff;
+}
+#his1:target {
+   background: #fc0; /* Цвет фона */
+  }
+#his2:target {
+     background: #0cf; /* Цвет фона */
+    }
+.main_menu li::before{
+  content: "\2693"
+}
+.main_menu li::after{
+  content: "\2712"
 }
 
-.table_input_form>div div input{
-  /*
-  width: 50%;
-  */
-}
-
-.table_input span{
-  font-size: 10px;
-}
 
 .social{
   -webkit-box-align: center;
