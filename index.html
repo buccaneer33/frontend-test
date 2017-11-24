@@ -3,35 +3,86 @@
   <head>
     <meta charset="utf-8">
     <title>Домашнее задание HTML</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
   </head>
   <body>
 
   <div class="body">
 
-    <div class="header flexbox">
-      <div class="leftCol flexbox">
-        <div class="leftCol__image">
-            <img src="img/1.jpg" alt="текст">
-        </div>
-      </div>
-      <div class="rightCol flexbox">
-        <form class="rightCol__loginForm" name="autentification" method="POST" action="#">
-            <p><input type="text" name="login" placeholder="Введите свой логин"></p>
-            <p><input type="password" name="pass" placeholder="Введите свой пароль"></p>
-            <p><label><input type="checkbox" name="agree">Запомнить меня</label></p>
-            <p><button>Войти</button></p>
-        </form>
-
-      </div>
-
+<header class="header flexbox flexbox-start-spacearound">
+  <div class="header__column col-width-2">
+    <div class="logo">
+        <img class="logo__img" src="img/logo.jpg" alt="текст">
     </div>
 
+  </div>
+  <div class="header__column col-width-5">
+      <h1 class="header__site-title">Ваше название сайта здесь</h1>
+      <h3 class="header__site-slogan">Ваш слоган здесь</h3>
+  </div>
+
+  <div class="header__column col-width-3">
+    <form class="loginForm form_grey" name="autentification" method="POST" action="#">
+        <p class="loginForm__paragraph">
+          <input class="loginForm__input" type="text" name="login" placeholder="Введите свой логин">
+        </p>
+        <p class="loginForm__paragraph">
+          <input class="loginForm__input" type="password" name="pass" placeholder="Введите свой пароль">
+        </p>
+        <p class="loginForm__paragraph">
+          <label><input class="loginForm__input" type="checkbox" name="agree">Запомнить меня</label>
+        </p>
+        <p class="loginForm__paragraph">
+          <button class="button loginForm__button">Войти</button>
+        </p>
+    </form>
+  </div>
+  <nav class="nav flexbox flexbox-start-center">
+        <ul class="flexbox flexbox-row flexbox-center-start">
+            <li class="nav__item">Ваше меню</li>
+            <li class="nav__item">Ваше меню</li>
+            <li class="nav__item">Ваше меню</li>
+            <li class="nav__item">Ваше меню</li>
+            <li class="nav__item">Ваше меню</li>
+          </ul>
+  </nav>
+</header>
+<section>
+
+                <article>
+                        <header>
+                                <h2>Заголовок статьи</h2>
+                                <p>Опубликовано <time datetime="2014-01-30T16:31:24+03:00">30 января 2014</time> <a href="#">Автор</a> - <a href="#comments">6 комментариев</a></p>
+                        </header>
+                        <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.</p>
+                </article>
+
+                <article>
+                        <header>
+                                <h2>Заголовок статьи</h2>
+                                <p>Опубликовано <time datetime="2014-01-30T16:31:24+03:00">30 января 2014</time> <a href="#">Автор</a> - <a href="#comments">6 комментариев</a></p>
+                        </header>
+                        <p>Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию.</p>
+                </article>
+
+        </section>
+
+        <aside>
+                <h2>Об авторе</h2>
+                <p>Нет никого, кто любил бы боль саму по себе, кто искал бы её и кто хотел бы иметь её просто потому, что это боль..</p>
+        </aside>
+
+        <footer>
+           <p>Copyright 2014 Ваш сайт</p>
+        </footer>
 
 
-      <div class="image">
 
-      </div><!--image-->
+
+
+
+
 
       <div class="main">
         <div class="main_menu">

@@ -1,0 +1,45 @@
+
+.header{
+  width: 100%;
+  min-width: 300px;
+
+}
+.header__column{
+  border:1px solid red;
+
+}
+.header__site-title{
+  margin: 0 auto;
+  font-size: 28px;
+  font-family: monospace;
+}
+.header__site-slogan{
+  margin: 0 auto;
+  font-family: fantasy;
+}
+.loginForm{
+  padding: 10px;
+
+}
+
+.loginForm__paragraph{
+  margin: 3px;
+}
+.loginForm__input{}
+
+.loginForm__input:focus{
+  background-color: #555;
+  color: #fff;
+}
+.loginForm__button{
+  line-height: 1rem;
+  font-size: 10px;
+  border-color: #3f3;
+}
+.nav{
+  background-color: #ccc;
+
+}
+.nav__item{
+  display: inline-block;
+}
